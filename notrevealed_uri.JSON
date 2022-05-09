@@ -1,0 +1,14 @@
+{
+  "description": "Manic Mouse Millions designed to bring communities together, for a fun mint that everyone can enjoy! If you would like to have a community raffle NFT for your project, please visit https://kroniclabz.com or join the server, https://discord.gg/kronickatz.",
+  "external_url": "https://korniclabz.com/manicmousemillions",
+  "image": "ipfs://QmQt1CUBrJJotK4qNPTbPEFrxWfswJCyBC7qh8zxwMMnvN",
+  "name": "Manic Mouse Millions",
+  "edition": 1,
+  "attributes": [
+    {
+      "display_type": "boost_number", 
+      "trait_type": "Reward_percentage_of_mint", 
+      "value": 40
+    }
+  ]
+}
