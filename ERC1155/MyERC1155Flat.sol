@@ -1,24 +1,5 @@
 // SPDX-License-Identifier: MIT
 
-
-// Amended by HashLips
-
-/**
-    !Disclaimer!
-    
-    These contracts have been used to create tutorials,
-    and was created for the purpose to teach people
-    how to create smart contracts on the blockchain.
-    please review this code on your own before using any of
-    the following code for production.
-    The developer will not be responsible or liable for all loss or 
-    damage whatsoever caused by you participating in any way in the 
-    experimental code, whether putting money into the contract or 
-    using the code for your own project.
-*/
-
-
-
 pragma solidity ^0.8.0;
 
 /**
