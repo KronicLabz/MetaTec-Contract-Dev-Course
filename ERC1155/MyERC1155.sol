@@ -1,20 +1,4 @@
 // SPDX-License-Identifier: MIT
-
-// Amended by HashLips
-/**
-    !Disclaimer!
-    
-    These contracts have been used to create tutorials,
-    and was created for the purpose to teach people
-    how to create smart contracts on the blockchain.
-    please review this code on your own before using any of
-    the following code for production.
-    The developer will not be responsible or liable for all loss or 
-    damage whatsoever caused by you participating in any way in the 
-    experimental code, whether putting money into the contract or 
-    using the code for your own project.
-*/
-
 pragma solidity ^0.8.0;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC1155/ERC1155.sol";
@@ -28,8 +12,8 @@ contract NFT1155 is ERC1155, Ownable {
   mapping(uint => string) public tokenURI;
 
   constructor() ERC1155("") {
-    name = "HashItems";
-    symbol = "HASHITEMS";
+    name = "MyERC1155";
+    symbol = "MERC";
   }
 
   function mint(address _to, uint _id, uint _amount) external onlyOwner {
