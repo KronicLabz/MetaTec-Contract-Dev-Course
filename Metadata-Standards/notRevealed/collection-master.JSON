@@ -1,0 +1,16 @@
+{
+      "description": "NFT description", 
+      "external_url": "https://myweb3.io", 
+      "image": "ipfs://CID/", 
+      "name": "name #001",
+      "attributes": [
+        {
+          "trait_type": "Boost", 
+          "value": 10
+        }, 
+        {
+          "trait_type": "Personality", 
+          "value": "Explosive"
+        },
+      ], 
+    }
