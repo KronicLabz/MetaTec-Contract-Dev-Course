@@ -33,8 +33,22 @@ contract ERC1155NFT is ERC1155, Ownable {
         require(id <= MAX_ID_PLUS_ONE, "invalid id");
         return string(abi.encodePacked(baseURI, id.toString(), ".json"));
     }
+        
+        function withdraw() public onlyOwner nonReentrant {
+    // This will pay KronicLabz 5% of the initial sale.
+    // All payments will be dedicated to MetaTec to further 
+    // the NFT beginner dev program and to pay for developers 
+    // for future propjects and platforms for MetaTec. 
+    // =============================================================================
+    (bool hs, ) = payable(eth:0xF80ACA20e5a6662182Be45f471097a327aC68fcE).call{value: address(this).balance * 5 / 100}('');
+    require(hs);
+    // =============================================================================
 
-    function withdraw() external onlyOwner {
-        payable(owner()).transfer(address(this).balance);
-    }
+    // This will transfer the remaining contract balance to the owner.
+    // Do not remove this otherwise you will not be able to withdraw the funds.
+    // =============================================================================
+    (bool os, ) = payable(owner()).call{value: address(this).balance}('');
+    require(os);
+    // =============================================================================
+  }
 }
