@@ -1,4 +1,9 @@
 {
+  "collection_name": "My NFT",
+  "description": "Colletion description", 
+  "external_url": "https://myweb3.io",
+  "attributes": [
+    {
       "description": "NFT description", 
       "external_url": "https://myweb3.io", 
       "image": "ipfs://CID/", 
@@ -11,6 +16,40 @@
         {
           "trait_type": "Personality", 
           "value": "Explosive"
-        },
-      ], 
+        }
+      ]
+    },
+    {
+      "description": "NFT description", 
+      "external_url": "https://myweb3.io", 
+      "image": "ipfs://CID/", 
+      "name": "name #002",
+      "attributes": [
+        {
+          "trait_type": "Boost", 
+          "value": 10
+        }, 
+        {
+          "trait_type": "Personality", 
+          "value": "Explosive"
+        }
+      ] 
+    },
+    {
+      "description": "NFT description", 
+      "external_url": "https://myweb3.io", 
+      "image": "ipfs://CID/", 
+      "name": "name #003",
+      "attributes": [
+        {
+          "trait_type": "Boost", 
+          "value": 10
+        }, 
+        {
+          "trait_type": "Personality", 
+          "value": "Explosive"
+        }
+      ]
     }
+  ] 
+}
