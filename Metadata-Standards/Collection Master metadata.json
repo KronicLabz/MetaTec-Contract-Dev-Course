@@ -1,0 +1,71 @@
+{
+    "collection_name": "Collection Name",
+    "description": "Description",
+    "external_url": "https://your-website.com",
+    "collection": [
+        {
+            "description": "Description",
+            "external_url": "https://your-website.com",
+            "image": "ipfs://CID/",
+            "name": "name #0001",
+            "attribute": [
+                {
+                    "trait_type": "trait type",
+                    "value": "value"
+                },
+                {
+                    "trait_type": "trait type",
+                    "value": "value"
+                }
+            ]
+        },
+        {
+            "description": "Description",
+            "external_url": "https://your-website.com",
+            "image": "ipfs://CID/",
+            "name": "name #0002",
+            "attribute": [
+                {
+                    "trait_type": "trait type",
+                    "value": "value"
+                },
+                {
+                    "trait_type": "trait type",
+                    "value": "value"
+                }
+            ]
+        },
+        {
+            "description": "Description",
+            "external_url": "https://your-website.com",
+            "image": "ipfs://CID/",
+            "name": "name #0003",
+            "attribute": [
+                {
+                    "trait_type": "trait type",
+                    "value": "value"
+                },
+                {
+                    "trait_type": "trait type",
+                    "value": "value"
+                }
+            ]
+        },
+        {
+            "description": "Description",
+            "external_url": "https://your-website.com",
+            "image": "ipfs://CID/",
+            "name": "name #0004",
+            "attribute": [
+                {
+                    "trait_type": "trait type",
+                    "value": "value"
+                },
+                {
+                    "trait_type": "trait type",
+                    "value": "value"
+                }
+            ]
+        }
+    ]
+}
