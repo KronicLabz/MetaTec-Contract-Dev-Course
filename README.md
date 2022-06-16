@@ -3,7 +3,7 @@ Sample code for the contract dev courses given at MetaTec
 
 ![image](https://user-images.githubusercontent.com/87687899/167833003-3a92f71f-519b-4057-a9ff-75166d8219b1.png)
 
-**ERC1155 Intorduction for traditional and recording creatives will use the MyERC1155Simple.sol file for the course:**
+**ERC1155 Introduction for traditional and recording creatives will use the MyERC1155Simple.sol file for the course:**
 
 *MetaTec-Contract-Dev-Course/ERC1155/MyERC1155Simple.sol*
 
